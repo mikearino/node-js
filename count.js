@@ -2,4 +2,4 @@ var counter = function(arr) {
   return "There are " + arr.length + " elements in this array";
 };
 
-console.log(counter(["shaun", "crystal", "Mike"]));
+module.exports = counter;
